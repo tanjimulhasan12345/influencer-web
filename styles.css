@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 87px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav>ul {
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav h1 {
+    font-size: 30px;
+}
+
+nav li {margin-right:34px ;
+        padding: 2px 5px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;}
