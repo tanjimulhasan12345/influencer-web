@@ -132,10 +132,12 @@ hr {
         margin-right: 0px;
         display: flex;
         justify-content: center;
+        margin-top: 20px;
     }
 
     .banner {
-
+        margin-top: 70px;
+        margin-bottom: 0px;
         margin-left: 0px;
         margin-right: 0px;
         display: flex;
@@ -170,11 +172,19 @@ hr {
     .sponcer-icon {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        flex-direction: row-reverse;
-        margin: 39px;
         
+
     }
 
-    hr{display: none;}
+    hr {
+        display: none;
+    }
+
+    .sponcer-icon img {
+        width: 60px;
+        margin: 15px;
+    }
+
+    .sponcer{margin-top: 20px;}
 
 }
