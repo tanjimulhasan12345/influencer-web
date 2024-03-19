@@ -11,13 +11,15 @@ nav {
     margin-top: 87px;
 }
 
-nav ul {
-    display: flex;
+.bars {
+    display: none;
 }
 
-nav>ul {
+
+
+nav ul {
     list-style: none;
-    justify-content: space-between;
+    display: flex;
 }
 
 nav a {
@@ -34,7 +36,11 @@ nav h1 {
     font-size: 30px;
 }
 
-nav li {
+.nav-li {
+    display: flex;
+}
+
+li {
     margin-right: 34px;
     padding: 2px 5px;
     font-size: 16px;
@@ -122,18 +128,34 @@ hr {
 
 @media screen and (max-width:576px) {
 
-    nav ul {
+    .nav-li {
         display: none;
 
+
+    }
+
+    ul {
+        margin: 0px;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .title {
+        font-size: 29px;
     }
 
     nav {
         margin-left: 0px;
         margin-right: 0px;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
         margin-top: 20px;
     }
+
+    nav h1{font-size: 16px;}
 
     .banner {
         margin-top: 70px;
@@ -172,7 +194,7 @@ hr {
     .sponcer-icon {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        
+
 
     }
 
@@ -185,6 +207,11 @@ hr {
         margin: 15px;
     }
 
-    .sponcer{margin-top: 20px;}
+    .sponcer {
+        margin-top: 20px;
+    }
+
+    .w-icon{position: relative;
+            left: 40px;}
 
 }
