@@ -134,7 +134,6 @@ main {
 .popular-title {
     text-align: center;
     font-size: 28px;
-    font-style: normal;
     font-weight: 600;
     color: #3A3A3A;
     margin-bottom: 30px;
@@ -209,8 +208,10 @@ main {
     font-weight: 700;
 }
 
-.card:hover{transform: scale(1.07);
-            transition: 0.1s;}
+.card:hover {
+    transform: scale(1.07);
+    transition: 0.1s;
+}
 
 
 @media screen and (max-width:576px) {
@@ -303,6 +304,27 @@ main {
     .w-icon {
         position: relative;
         left: 40px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .popular-title {
+        width: 100%;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 0px;
     }
 
 }
