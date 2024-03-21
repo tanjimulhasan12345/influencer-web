@@ -213,6 +213,53 @@ main {
     transition: 0.1s;
 }
 
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+section p {
+    width: 501px;
+    height: 88px;
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 16px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+section h2 {
+    color: #0A0826;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+section button {
+    padding: 10px 24px;
+    background: #E02C6D;
+    border: 0px;
+}
+
+section span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.arrow {
+    color: #FFF;
+}
+
+
+
+
 
 @media screen and (max-width:576px) {
 
@@ -326,5 +373,41 @@ main {
     .card {
         margin: 0px;
     }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        width: auto;
+    }
+
+    section img {
+        width: 80%;
+    }
+
+    .part1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .part2 {display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 30px;}
 
 }
